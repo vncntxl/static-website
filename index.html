@@ -29,6 +29,12 @@
     html {
       scroll-behavior: smooth;
     }
+    @media (max-width: 768px) {
+      .garis {
+        margin: auto;
+        float: none;
+      }
+    }
   </style>
   <body>
     <header class="fixed w-full">
@@ -307,9 +313,9 @@
             <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
               Meet Our Founder
 
-              <hr class="mt-3" />
+              <hr class="md:mt-4" />
 
-              <p style="color: #12294a" class="mt-2">Sheren Gracia</p>
+              <p style="color: #12294a" class="mt-6 text-center">Sheren Gracia</p>
             </h2>
             <p class="mb-8 font-light lg:text-xl tracking-wide leading-8">
               Sheren Gracia is a manager-talent from Indonesia, and founder of apocalypse digital. She is ready to help you boost your brand globally through the most talented talents in apocalypse digital.
@@ -321,8 +327,8 @@
         </div>
         <!-- Row -->
         <div style="text-align: right">
-          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Our Team</h2>
-          <hr style="margin-bottom: 1rem; float: right; width: 30%" />
+          <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-center">Our Team</h2>
+          <hr class="md:hidden" style="margin-bottom: 1rem; float: right; width: 30%" />
         </div>
         <div class="flex flex-wrap justify-center">
           <div class="text-center mx-2">
